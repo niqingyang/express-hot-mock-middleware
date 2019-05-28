@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir lib"
-  },,
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/niqingyang/express-mock-middleware.git"
