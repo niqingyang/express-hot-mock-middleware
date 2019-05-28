@@ -1,6 +1,6 @@
 {
   "name": "@acme-top/express-mock-middleware",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "an express middleware for implementing mock api with reference to umi-mock",
   "main": "./lib/index.js",
   "files": [
@@ -10,7 +10,16 @@
   "private": false,
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir lib"
+  },,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niqingyang/express-mock-middleware.git"
   },
+  "keywords": [
+    "express",
+    "mock",
+    "middleware"
+  ],
   "author": "niqingyang",
   "license": "MIT",
   "dependencies": {
