@@ -1,0 +1,32 @@
+{
+  "name": "@acme-top/express-mock-middleware",
+  "version": "0.1.0",
+  "description": "an express middleware for implementing mock api with reference to umi-mock",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "private": false,
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "author": "niqingyang",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "chokidar": "^2.1.6",
+    "glob": "^7.1.4",
+    "multer": "^1.4.1",
+    "path": "^0.12.7",
+    "path-to-regexp": "^3.0.0",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
