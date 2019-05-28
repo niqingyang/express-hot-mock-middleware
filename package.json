@@ -4,8 +4,7 @@
   "description": "an express middleware for implementing mock api with reference to umi-mock",
   "main": "./lib/index.js",
   "files": [
-    "lib",
-    "src"
+    "lib"
   ],
   "private": false,
   "scripts": {
