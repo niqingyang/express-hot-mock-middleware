@@ -1,5 +1,5 @@
 {
-  "name": "@acme-top/express-mock-middleware",
+  "name": "express-hot-mock-middleware",
   "version": "1.0.1",
   "description": "an express middleware for implementing mock api with reference to umi-mock",
   "main": "./lib/index.js",
