@@ -1,7 +1,7 @@
 import path from "path";
 import glob from "glob";
 import assert from 'assert';
-import pathToRegexp from 'path-to-regexp';
+import {pathToRegexp} from 'path-to-regexp';
 import bodyParser from 'body-parser';
 import multer from 'multer';
 
