@@ -65,3 +65,4 @@ lib/*
 test/*
 package-lock.json
 
+.idea
